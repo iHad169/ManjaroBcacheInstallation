@@ -62,7 +62,8 @@ Add `Filesystem (Btrfs)` on LVM Partition for install `Manjaro`
 # mkfs.btrfs /dev/VolumeGroup00/root
 ```
 ### Run Manjaro Linux Installer
-
+Run the Manjaro Linux Installer until the installation is complete. **Remember do not restart your Manjaro Linux Live CD.** You need do some thing to boot
+able the New Installation Manjaro.
 ### Chroot New Installation
 Here is where things get tricky. What we’re going to do is switch to the new operating system without booting and install some software to get `bcache-tools `installed and a new `mkinitcpio` generated so the computer will boot.
 
