@@ -29,7 +29,8 @@ sdb                         8:16   0   3.6T  0 disk
   └─bcache0               254:0    0   3.6T  0 disk 
     └─VolumeGroup00-root  253:1    0   3.6T  0 lvm  /
 ```
-
+### Boot Manjaro Linux Live CD USB
+The `Manjaro Linux Live CD .iso` you can on [this download](https://manjaro.org/download/). After you burn the `.iso` to your USB device for boot to install Manjaro Linux. 
 ### Install Bcache Tools
 First, connect to the Internet. Make sure the connection is working. We will install `bcache-tools` and create the `bcache` device.
 ```
